@@ -67,7 +67,10 @@ a {
 h2 {
     font-size: x-large;
     font-weight: bolder;
-    font-style: italic;
+    font-style: normal;
     font-variant: normal;
-    /* font : italic xx-large bold 'times new roman', sans-serif; */
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    text-align: center;
 }

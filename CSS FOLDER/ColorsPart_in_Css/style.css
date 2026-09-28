@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(176, 201, 210);
+}
+
+#box1, #box2, #box3 {
+    
+    max-width: 700px;
+    padding: 30px;
+    margin: 30px;
+    border: 2px solid rgb(255, 254, 254);
+    border-radius: 10px;
+     
+}
+
+#box1, #box2, #box3 {
+    background-color: rgb(255, 255, 255);
+}
+
+.sporty {
+    color: rgb(217, 44, 10);
+}
+
+.casual {
+    color: blue;
+}
+
+.formal {
+    color: rgb(45, 2, 2);
+}
+
+#box1 a {
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    background-color: rgb(217, 44, 10);
+    border-radius: 5px;
+}
+#box2 a {
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+}
+#box3 a {
+    text-decoration: none;
+    padding: 10px;
+    
+    color: white;
+    background-color: rgb(45, 2, 2);
+    border-radius: 5px;
+}
