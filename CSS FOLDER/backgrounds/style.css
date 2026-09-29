@@ -1,0 +1,19 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    color: yellow;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE1tPqkPXpuHxm0xPGops-VH6C_4pAw5kH68RnmMXRBg&s=10');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
