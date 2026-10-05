@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* regular link */
+/* a {
+    text-decoration: none;
+    color: coral;
+} */
+/* 
+a:hover {
+    color: darkorange;
+} */
+
+/* a:active {
+    background-color: aqua;
+} */
+
+a:focus {
+    background: yellow;
+}

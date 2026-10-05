@@ -1,0 +1,43 @@
+body {
+    margin: 6px;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    top-margin: 20px;
+    background-color: #611a5c;
+    text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  padding: 4px 0;
+  font-size: 40px;
+  line-height: 1.5;
+  color: #fff;
+}
+
+.links {
+    margin-top: 27px;
+    padding: 0 10px;
+    background-color:#f3f3f3;   
+    line-height: 29px;
+}
+
+.links a {
+    color: #333;
+    text-decoration: none;
+}
+
+#little {
+    color: rgb(133, 6, 133);
+    font-size: 20px;
+    text-decoration: bold;
+}
+
+#big {
+    /* color: rgb(133, 6, 133); */
+    /* font-size: 30px; */
+    /* text-decoration: bold; */
+}
+ 
