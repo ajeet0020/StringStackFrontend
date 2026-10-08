@@ -1,0 +1,14 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* .hidden-el {
+    visibility: hidden;
+} */
+.none-el {
+    visibility: hidden;
+}
+
+.hidden-el {
+    /* display: none; */
+}

@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(176, 201, 210);
@@ -6,7 +11,6 @@ body {
 #box1, #box2, #box3 {
     position: relative;
     max-width: 700px;
-    min-height: 160px;
     padding: 30px;
     margin: 30px auto;
     background-color: rgb(255, 255, 255);
@@ -28,8 +32,7 @@ p {
     font-size: 14px;
     margin-bottom: 20px;
 }
-
-#box1 img, #box2 img, #box3 img {
+img {
     position: absolute;
     right: 0;
     top: 0;
@@ -39,29 +42,21 @@ p {
     object-fit: contain;
 }
 
-.sporty {
-    color: rgb(217, 44, 10);
-}
-
-.casual {
-    color: blue;
-}
-
-.formal {
-    color: rgb(45, 2, 2);
-}
-
-#box1 a,
-#box2 a,
-#box3 a {
-    /* display: inline-block; */
+a {
+    display: inline-block;
     text-decoration: none;
     padding: 9px 16px;
     font-size: 14px;
     color: white;
     border-radius: 5px;
 }
-
-#box1 a { background-color: rgb(217, 54, 75); }
-#box2 a { background-color: rgb(15, 63, 156); }
-#box3 a { background-color: rgb(59, 31, 22); }
+ 
+#box1 a {
+    background-color: red;
+}
+#box2 a {
+    background-color: blue;
+}
+#box3 a {
+    background-color: brown;
+}

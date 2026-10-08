@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box{
+   
+    max-width: 400px;
+    margin: 20px;
+    padding: 20px;
+    border: 2px dashed black;
+}
+
+.box-1 {
+    border: none;
+    border-top: solid rgb(255, 98, 0) 10px;
+    border-bottom: solid rgb(255, 98, 0)10px;
+    /* border-bottom-right-radius: 20px ; */
+    border-radius: 30%;
+}
+
+
+.box-2 {
+    border: none;
+    border-top: solid rgb(202, 196, 196) 10px;
+    border-bottom: solid rgb(223, 227, 223) 10px;
+    border-radius: 30%;
+}
+
+
+.box-3 {
+    border: none;
+    border-top: solid rgb(63, 209, 18) 10px;
+    border-bottom: solid rgb(56, 174, 73) 10px;
+    border-bottom-left-radius: 20%;
+    border-top-right-radius: 20%;
+     border-radius: 30%;
+}
