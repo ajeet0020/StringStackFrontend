@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.flex-container {
+    display: flex;
+    flex-direction: column; /* Arrange items in a column */
+    justify-content: center; /* Align items horizontally */
+    align-items: center; /* Align items vertically */
+    width: 100%;
+    height: 400px; /* Full viewport height */
+    background-color: #f42525;
+    /* what is difference between align item as flex start and align items as baseline */
+    /* Ans : flex-start aligns items to the start of the cross axis, while baseline aligns items along their baseline */
+}
+
+.flex-item {
+    background-color: #4CAF50;
+    height: 100px;
+    width: 200px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.item1 {
+    flex-self: flex-start; /* Aligns this item to the start of the cross axis */
+}

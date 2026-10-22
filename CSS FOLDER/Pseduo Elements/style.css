@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2;
+}
+
+.container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+}
+
+p::first-letter {
+    font-size: 2rem;
+    color: red;
+    /* background-color: blue; */
+    padding-right: 3px;
+    font-weight: bold;
+}
+
+p::first-line{
+    color: purple;
+}
+
+p::selection {
+    background-color: yellow;
+    color: black;
+}
+
+input::placeholder 
+{
+    background-color: cadetblue;
+    color: purple;
+    font-weight: bold;
+}
+
+input::file-selector-button {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+li::marker {
+   /* how to style list item markers */
+   content: "\1F600 ";
+}
